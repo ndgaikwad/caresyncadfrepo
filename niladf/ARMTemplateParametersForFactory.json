@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "niladf"
+		},
+		"LS_ADLS_properties_typeProperties_url": {
+			"value": "https://niladls.dfs.core.windows.net/"
+		},
+		"LS_AzureDatabricks_properties_typeProperties_existingClusterId": {
+			"value": "1024-150811-8wlsmtvo"
+		},
+		"LS_AzureKeyVault_properties_typeProperties_baseUrl": {
+			"value": "https://nil-keyvalut.vault.azure.net/"
+		},
+		"LS_AzureSqlDatabase_properties_typeProperties_server": {
+			"value": "caresync-srv.database.windows.net"
+		},
+		"LS_AzureSqlDatabase_properties_typeProperties_database": {
+			"value": "sql-db-caresync"
+		},
+		"LS_AzureSqlDatabase_properties_typeProperties_userName": {
+			"value": "datanil"
+		},
+		"LS_PostgreSQL_properties_typeProperties_server": {
+			"value": "ep-curly-base-zavja3lg-pooler.c-2.eu-west-2.aws.neon.tech"
+		},
+		"LS_PostgreSQL_properties_typeProperties_database": {
+			"value": "neondb"
+		},
+		"LS_PostgreSQL_properties_typeProperties_username": {
+			"value": "neondb_owner"
+		}
+	}
+}
