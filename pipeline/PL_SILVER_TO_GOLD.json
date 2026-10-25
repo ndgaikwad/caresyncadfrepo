@@ -191,11 +191,6 @@
 				"defaultValue": "a15"
 			}
 		},
-		"variables": {
-			"test": {
-				"type": "String"
-			}
-		},
 		"annotations": []
 	}
 }
