@@ -995,6 +995,7 @@
 				"activities": [
 					{
 						"name": "Copy data1",
+						"description": "this is a change in test pileine descrip[tion",
 						"type": "Copy",
 						"dependsOn": [],
 						"policy": {
