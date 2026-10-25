@@ -1,0 +1,12 @@
+{
+	"name": "niladf",
+	"properties": {
+		"globalParameters": {
+			"emial_receipent": {
+				"type": "string",
+				"value": "nileshgaikwadd231@gmail.com"
+			}
+		}
+	},
+	"location": "uksouth"
+}
