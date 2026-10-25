@@ -5,6 +5,10 @@
 			"emial_receipent": {
 				"type": "string",
 				"value": "nileshgaikwadd231@gmail.com"
+			},
+			"env": {
+				"type": "string",
+				"value": "DEV"
 			}
 		}
 	},
