@@ -1,0 +1,29 @@
+{
+	"name": "TRG_CAESYNC_DAILY",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "PL_MASTER",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2026-10-25T10:27:00",
+				"timeZone": "India Standard Time",
+				"schedule": {
+					"hours": [
+						5
+					]
+				}
+			}
+		}
+	}
+}
