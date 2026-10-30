@@ -1,7 +1,9 @@
 {
 	"name": "LS_ADLS",
 	"properties": {
-		"annotations": [],
+		"annotations": [
+			"test ls"
+		],
 		"type": "AzureBlobFS",
 		"typeProperties": {
 			"url": "https://niladls.dfs.core.windows.net/"
